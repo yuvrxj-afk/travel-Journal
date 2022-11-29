@@ -1,11 +1,10 @@
 import React from "react";
-import world from "../images/world.png";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <div className="navbar--container">
       <div className="mid-container">
-        <img src={world} alt="" className="world" />
+        <img src={props.img} alt="" className="world" />
         <h4 className="nav--p">My Travel Journal</h4>
       </div>
     </div>

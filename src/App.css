@@ -30,9 +30,9 @@ body {
   filter: invert(10);
   margin-right: 7px;
 }
-.nav--p{
-    margin-top: 2px;
-    font-size: 14px;
-    color: white;
-    font-weight: bold;
+.nav--p {
+  margin-top: 2px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
 }
