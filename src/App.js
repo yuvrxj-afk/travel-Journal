@@ -1,11 +1,15 @@
 import "./App.css"
 import Navbar from './components/Navbar';
+import Place from "./components/Place";
 
+import world from "./images/world.png";
+import pointer from "./images/placeholder.png"
 
 function App() {
   return (
     <div className="app-container">
-      <Navbar />      
+      <Navbar img={world}/>
+      <Place point={pointer}/>      
     </div>
   );
 }
