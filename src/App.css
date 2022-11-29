@@ -5,13 +5,23 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.app-container {
-  border: 1px solid green;
+.react--app-container {
+  height: 705px;
   width: 550px;
   margin: 10px auto;
+  overflow-y: auto;
+  box-shadow: 0px 1px 14px 0px rgba(128, 128, 128, 0.616);
   background-color: white;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
+.nav--cont--bar{
+    position: sticky;
+    top: 0px;
+}
 /* navBar css  */
 
 .navbar--container {
@@ -19,7 +29,7 @@ body {
   height: 55px;
   display: flex;
   justify-content: center;
-  background-color: rgba(216, 68, 68, 0.897);
+  background-color: rgb(218, 63, 63);
 }
 
 .mid-container {
@@ -41,27 +51,29 @@ body {
 /* Place js css */
 
 .place--container {
+  overflow-y: auto;
   width: 471px;
-  height: 168px;
-  border: 1px solid red;
+  height: auto;
+  /* border: 1px solid red; */
   margin: 30px auto;
   border-radius: 9px;
   display: flex;
-  background-color: rgb(253, 250, 250);
+  background-color: rgba(255, 255, 255, 0.603);
+  box-shadow: 1px 1px 10px 0px rgba(128, 128, 128, 0.616);
 }
 /* left--container */
-.left--container {
-}
+/* .left--container {} */
 .left-image {
   width: 126px;
-  height: 168px;
-  border-top-right-radius: 9px;
-  border-bottom-right-radius: 9px;
+  height: 198px;
+  border-radius: 9px;
 }
 /* right--container */
 .right--container {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 6px 17px;
+  margin-right: 0px;
+  padding-top: 9px;
 }
 .first--location {
   display: flex;
@@ -72,13 +84,30 @@ body {
 }
 .city--name {
   font-size: 14px;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-left: 3px;
   color: gray;
 }
 .map--link {
   font-style: 10px;
   margin-left: 14px;
-  margin-top: 3px; 
+  margin-top: 3px;
   color: gray;
+}
+/* .heading--part {} */
+.mane--h1 {
+  font-size: 25px;
+  color: rgb(53, 52, 52);
+  margin: 0px 0px 9px 5px;
+}
+.content--part h4 {
+  font-size: 11px;
+  color: rgb(53, 52, 52);
+  margin-bottom: 6px;
+}
+.content--part p {
+  font-size: 10px;
+  color: rgb(53, 52, 52);
+  margin-right: 7px;
+  margin-bottom: 5px;
 }
